@@ -1,0 +1,196 @@
+\documentclass{article}
+\title{MEC 331 : Mechanics of Machine Assignment}
+\author{Fidelugwuowo Dilibe. REG. NO: 2018/248767 }
+\begin{document}
+\maketitle
+\begin{center}\title{\section*{\textbf{{Assignment}}}}\end{center}
+\newpage
+
+\section*{\textbf{Question 1.7:}}
+ Each of the four vertical links has an $ 8 \times $ 36-mm  uniform rectangular cross section and each of the four pins has a 16-mm diameter.
+Determine the maximum value of the average normal stress in the
+links connecting 
+\begin{itemize}
+	\item points B and D
+	\item points C and E.
+\end{itemize}
+%This is the answer section
+\begin{center} Solution \end{center}
+
+\[\sum{}F_{(x)}=0,  \sum{}F_{(y)}=0 \]
+\[F_{BD} - F_{CE} = -20\]
+$\sum{}M_{(c)} = 0$
+$(0.040)F_{BD} + (0.025 + 0.040)(20 \times 10^{3}) = 0 $
+\[ F_{BD} = 32.5\times 10^{3}.  \]  \begin{center}This force in this link is a Tension force\end{center}
+
+$\sum{}M_{(b)} = 0$
+$-(0.040)F_{CE} - (0.025 )(20 \times 10^{3}) = 0 $
+\[ F_{BD} = -12.5\times 10^{3}. \] This force in this link is a compression force
+
+
+
+The area of link in tension  $A = (0.008)(0.036 - 0.016) = 150 \times 10 ^{-5}$
+
+For two parallel links, $A_{t} = 320 \times 10 ^ {-6} $
+
+Finding the tensile stress in link AB
+
+\newline
+\textbf{Link BD}
+\[\delta_{BD} = \frac{F_{BD}}{A} = \frac{32.5 \times 10^{3}}{320 \times 10^{-4}} = {101.56 \times 10^{6}} or 101.6MPa\]
+
+The area of link in Compression  $A_{t}= (0.008)(0.036 ) = 288 \times 10 ^{-6}$
+
+For two parallel links, $A_{c} = 576 \times 10 ^ {-6} $
+
+
+Finding the compressing stress in link CE
+
+\textbf{Link CE}
+\[\delta_{CE} = \frac{F_{CE}}{A} = \frac{-12.5 \times 10^{3}}{320 \times 10^{-4}} = {-21.7 \times 10^{6}} or 21.7MPa\]
+
+
+\newline
+
+\section*{\textbf{Question 1.11:}}
+The frame shown consists of four wooden members, ABC, DEF,
+BE, and CF. Knowing that each member has a 2 $ \times $ 4-in. rectangular cross section and that each pin has a $\frac{1}
+{2} $-in. diameter, determine the maximum value of the average normal stress 
+\begin{itemize}
+	\item  in member BE
+	\item  in member CF.
+\end{itemize}
+\begin{center} Solution \end{center}
+
+% This is the answer section
+
+After drawing the free body diagram,
+we find the reaction at point A and D
+\[\sum{}M_{a} = 0, D_{x} = (45 + 30)(480) = 0\]
+\[ D_{X} = 900lb \]
+\begin{center} Using Member DEF as a free body \end{center}
+\[\sum{}F = 0\]
+\[\frac{3}{5}D_{y} - \frac{4}{5}D_{x} = 0\]
+\[D_{y} = \frac{4}{5}D_{x} = 1200lb\]
+Now Taking Moment at different points of the beam DEF,
+\[\sum_{} M_{f} = 0 \]   \[-(30)(\frac{4}{5}F_{BE}) - (30+15)D_{y} = 0\]    \[F_{BE} = -2250lb \]
+\[\sum_{} M_{E} = 0 \]   \[-(30)(\frac{4}{5}F_{CE}) - (15)D_{y} = 0\]    \[F_{BE} = 750lb \]
+From these calculations, we can safetly assume that member BE is in compression and member CF is in Tension
+
+Area of member BE is A = $2in \times 4in = 8in^{2}$
+
+Area of the cross section which occurs at the pin is $A_{min} = (2)(4.0-0.5)=7.0in^{2}$
+
+\[\delta_{BE} = \frac{f_{BE}}{A} = \frac{-2250}{8}= -281psi\]
+\[\delta_{CE} = \frac{f_{CE}}{A_{min}} = \frac{750}{7.0}= 107.1psi\]
+
+
+
+
+
+\section*{\textbf{Question 1.15:}}
+When the force P reached 8 kN, the wooden specimen shown failed in shear along the surface indicated by the dashed line.Determine the average shearing stress along that surface at the time of failure. 
+
+\begin{center} Solution \end{center}
+As you know the forces are acting in the oppoosite direction and in the textbook, the formular is
+\[ \delta = \frac{p}{t \times L}\]
+\[ \delta = \frac{8\times 10^{3}}{15 \times 10^{-3} \times 90 \times 10^{-3}} = 5.93MPa\]
+
+
+\section*{\textbf{Question 1.16:}}
+The wooden members A and B are to be joined by plywood splice Fig. P1.14 plates that will be fully glued on the surfaces in contact. As part of the design of the joint, and knowing that the clearance between the ends of the members is to be $\frac{1}{4}$  in, determine the smallest allowable length L if the average shearing stress in the glue is not to exceed 120 psi.
+ \begin{center} Solution\end{center}
+Because of the variation is forces experienced by each glued place, we can say that the forces are divided by 2 (from the text book)
+
+\[F = 12KN = 12 \times 10^{3}N\]
+The average shear stress in the glue is 120 psi $\tau = 120psi$
+\[\tau = \frac{F}{A} \]
+\[A = \frac{F}{\tau} = \frac{5800}{120} = 48.333in^{2}\]
+let L = length of glue Area and W =  width = 4in
+\[A= L \times W\]
+\[l = \frac{A}{W} = \frac{48.333}{4} = 12.083in\]
+ L = $2L +$ gap = $(2\times 12.08)+ \frac{1}{4}$ = 24.42in
+
+\section*{\textbf{Question 1.17:}}
+A load P is applied to a steel rod supported as shown by an aluminum plate into which a 0.6-in.-diameter hole has been drilled. Knowing that the shearing stress must not exceed 18 ksi in the steel rod and 10 ksi in the aluminum plate, determine the largest load P that can be applied to the rod.
+
+\begin{center} Solution \end{center}
+For Steel, 
+\[A_{1} = \pi \times d\times t= \pi (0.6)(0.4) = 0.7540in^{2}\]
+\[\tau_{1} = \frac{P}{A_{1}}\]
+\[P = A_{1}\times\tau_{1} = (0.7540)(18) = 13.57kips\]
+for Aluminum 
+\[A_{2} = \pi\times d\times t = \pi(1.6)(0.25) = 1.2566in^{2}\]
+\[\tau_{2} = \frac{P}{A_{2}}\]
+\[P= \tau_{2} \times A_{2} = (1.2566)(10)= 12.57kips\]
+Limiting value of P is the Smaller Value: P = 12.57kips
+
+
+\section*{\textbf{Question 1.18:}}
+
+Two wooden planks, each 22 mm thick and 160 mm wide, are joined by the glued mortise joint shown. Knowing that the joint
+will fail when the average shearing stress in the glue reaches 820 kPa, determine the smallest allowable length d of the cuts if
+the joint is to withstand an axial load of magnitude P 5 7.6 kN.
+
+\begin{center} Solution \end{center}
+Seven surfaces carry the total load P = 1200lb
+
+Area \[A = (7)(\frac{7}{8})d = \frac{49}{8}d\]
+\[\tau = \frac{P}{A}\]
+\[A = \frac{P}{\tau}\]
+\[\frac{49}{8}d = \frac{1200}{120} \]
+Therefore, d = 1.683in
+
+\section*{\textbf{Question 1.19:}}
+The load P applied to a steel rod is distributed to a timber support by an annular washer. The diameter of the rod is 22 mm and the
+inner diameter of the washer is 25 mm, which is slightly larger than the diameter of the hole. Determine the smallest allowable
+outer diameter d of the washer, knowing that the axial normal stress in the steel rod is 35 MPa and that the average bearing stress between the washer and the timber must not exceed 5 MPa.
+
+ \begin{center} Solution \end{center}
+
+
+
+\section*{\textbf{Question 1.23:}}
+ A $\frac{5}{8}$-in.-diameter steel rod AB is fitted to a round hole near end C of the wooden member CD. For the loading shown, determine
+\begin{itemize}	
+ 	\item the maximum average normal stress in the wood
+	\item the distance b for which the average shearing stress is 100 psi on the surfaces indicated by the dashed lines
+	\item the average bearing stress on the wood.
+\end{itemize}
+
+\begin{center} Solution\end{center}
+\begin{itemize}
+\item Maximun Average Normal Stress In the Wood
+\[ A_{net} = 1\times(4-\frac{5}{8}) = 3.375in^{2}\]
+\[\delta = \frac{P}{A_{net}} = \frac{1500}{3.375} = 444.44psi\]
+\item  Distance B from which the average shaering stress is 100psi onn the surface indicated by the dashed lines
+\[\tau = \frac{P}{A} = \frac{P}{2\times b\times t}\]
+\begin{center}Makinig B the subject of the formualr \end{center}
+\[b = \frac{P}{2\times t\times\tau} = \frac{1500}{2\times 1\times100} = 7.5in\]
+\item Average Bearing Stress On the Wood
+\[\delta = \frac{P}{A_{b}} = \frac{P}{d\times t}=\frac{1500}{1\times\frac{5}{8}} =2400psi\]
+\end{itemize}
+
+
+\section*{\textbf{Question 1.26:}}
+Link AB, of width b $=$ 50 mm and thickness t $=$ 6 mm, is used to support the end of a horizontal beam. Knowing that the average normal stress in the link is -140 MPa, and that the average shearing stress in each of the two pins is 80 MPa, determine 
+\begin{itemize}
+	\item the diameter d of the pins
+	\item the average bearing stress in the link.
+\end{itemize}
+
+\begin{center} Solution \end{center}
+We are assuming that rod AB is in compression
+\[A = bt\]
+where b = 50mm and t = 6mm
+\[P = -\delta \times A = -(-140 \times 10^{6})(50 \times 10^{-3} \times 6 \times 10^{-3}) = 42KN\]
+Pin: $ T_{p} = \frac{P}{A_{p}} $ and $A_{p} = \frac{\pi}{4}d^{2}$
+\begin{itemize}
+\item The diameter,d of the pins
+\[d = \sqrt{\frac{4\times A_{p}}{\pi}} = \sqrt{\frac{4\times P}{\pi\times\tau_{p}}} = \sqrt{\frac{4\times 42 \times 10^{3}}{\pi \times 80 \times 10^{6}}} = 0.025m\]
+\item The average Bearing stress in the link
+\[\delta_{b} = \frac{P}{d\times t} = \frac{42\times10^{3}}{0.025\times0.006} = 280MPa\]
+\end{itemize}
+
+
+\end{document}
