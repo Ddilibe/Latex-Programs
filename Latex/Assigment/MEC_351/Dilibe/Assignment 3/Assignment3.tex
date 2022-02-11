@@ -1,0 +1,218 @@
+\documentclass{article}
+\title{MEC 361 Assignment}
+\author{Fidelugwuowo Dilibe. Reg No: 2018/248767}
+\usepackage{graphicx}
+\begin{document}
+\maketitle
+\newpage
+
+% This is for the first question
+\section*{Question 3.2}
+\begin{itemize}
+\item  Determine the torque T that causes a maximum shearing stress of 45 MPa in the hollow cylindrical steel shaft shown.
+\item Determine the maximum shearing stress caused by the same torque T in a solid cylindrical shaft of the same cross-sectional area.
+\end{itemize}
+\begin{center}\underline{Solution}\end{center}
+\begin{itemize}
+\item Finding the torque \newline
+ Given: \[\tau = 45 \times 10^{6}Pa\]\[r_{1} = 30mm = 0.03m\]\[r_{2} = 45mm = 0.024m\]
+\[\tau = \frac{{T}{r}}{J}\]
+Making $ T$ the subject of the formular
+\[T = \frac{J\tau}{r} = \frac{{\frac{\pi}{2}}\times(0.045^{4} - 0.03^{4})\times 45 \times 10^{6}}{0.045} = 5.168\times 10^{3}\]
+\item Assuming that it is a solid shaft and using the torque gotten from part A
+Find the cross sectional raduis \[r = \sqrt{ ({r_{1}}^{2} - {r_{2}}^{2} ) }=\sqrt{ ({45}^{2} - {30}^{2} ) }= 33.541mm\]
+Now using this raduis as a the raduis for finding the torque, we have
+\[\tau = \frac{{T}{r}}{J} = \frac{{T}\times{2}}{{\pi}{r^{3}}} = \frac{{5.1689\times 10^{3}}\times{2}}{{\pi}{0.033541}} = {87.2\times10^{6}Pa}\]
+\end{itemize}
+
+% This is for the second question
+\section*{Question 3.6}
+\begin{itemize}
+\item Determine the torque that can be applied to a solid shaft of $20-mm$ diameter without exceeding an allowable shearing stress of 80 MPa.
+\item Solve part a, assuming that the solid shaft has been replaced by a hollow shaft of the same cross-sectional area and with an inner diameter equal to half of its outer diameter.
+\end{itemize}
+\begin{center}\underline{Solution}\end{center}
+\begin{itemize}
+\item Finding the torque of a solid shaft \newline
+ Given: \[\tau = 80 \times 10^{6}Pa\]\[d_{s} = 20mm = 0.02m\]
+\[\tau = \frac{{T}{r}}{J}\]
+Making $ T$ the subject of the formular
+\[T = \frac{J\tau}{r} = \frac{{\frac{\pi}{32}}\times(0.02^{4})\times 80 \times 10^{6}}{\frac{0.02}{2}} = 125.7Nm\]
+\item Finding the torque of a hollow shaft using the same dimensions, we have\newline
+Given: \[\tau = 45 \times 10^{6}Pa\]\[r_{1} = ?\]\[r_{2} = 0.5r_{1}\]
+Since according to the question, we are to assume that the cross sectional area of the solid shaft is the same to the hollow shaft, therefore we can say $A_{H} = A_{S}$
+\[A_{S} = \pi\times\frac{{d_{S}}^{2}}{2} = \pi\times\frac{0.02}{2} = 0.0003141mm^{2}\]
+\[A_{} = \pi\times({r_{1}}^{2}-{r_{2}}^{2}) = \frac{\pi\times3{r_{1}}^{2}}{4} = 0.0003141\]
+Solving for $r_{1}$, we have that 
+\[r_{1} = 0.01154 \space \space \space ,di r_{2} = 0.005772\]
+\[T = \frac{J\tau}{r} = \frac{{\frac{\pi}{2}}\times(0.01154^{4} - 0.005772^{4})\times 80 \times 10^{6}}{0.01154} = 181.03Nm\]
+\end{itemize}
+
+
+%This is for the third question.
+\section*{Question 3.10}
+ In order to reduce the total mass of the assembly of Prob. 3.9, a new design is being considered in which the diameter of shaft BC will be smaller. Determine the smallest diameter of shaft BC for which the maximum value of the shearing stress in the assembly will not increase.
+
+\begin{center}\underline{Solution}\end{center}
+\begin{itemize}
+\item  In Shaft AB\newline
+Given: \[d = 0.03m\]\[T_{a} = 300Nm\]\[r = \frac{d}{2} = 0.015m\]\newline
+\begin{center}The formular for solving this question $\tau = \frac{T\times r}{J}$\end{center}
+\[\tau = \frac{T\times r}{J} = \frac{300\times0.015}{\frac{\pi}{32}\times {0.03}^{4}} = 56.58\times10^{6}Nm\]
+\item In Shaft BC \newline
+Given: \[d = 0.046m\]\[T_{b} = 400Nm\]\[r = \frac{d}{2} = 0.023m\]\newline
+\[\tau = \frac{T\times r}{J} = \frac{700\times0.023}{\frac{\pi}{32}\times {0.046}^{4}} = 20.92\times10^{6}Nm\]
+The highest shear stress is $ 56.58\times10^{6}Nm$.  Therefore we are going to use this as our shear stress.
+Making $r $ subject of the formular we have that \[r^{3} = \frac{2\times T}{T\times\pi}\]
+\[r = \sqrt[3]{\frac{2\times700}{56.58\times10^{6}\times\pi}} = 0.019896\]
+\[d = 2r = 2\times0.019896 = 0.03979m\]
+
+\end{itemize}
+
+
+% This is for the fourth question
+\section*{Question 3.13}
+ Under normal operating conditions, the electric motor exerts a 12-kip.in. torque at E. Knowing that each shaft is solid, determine the maximum shearing stress in
+\begin{itemize}
+ \item shaft BC
+\item shaft CD,
+\item shaft DE
+\end{itemize}
+\begin{center}\underline{Solution}\end{center}
+Knowing that $1in$ diameter hole has been drilled into the beam, we have
+\begin{itemize}
+\item In Shaft BC,
+Given\[r_{2} = 0.5in, r_{1}=\frac{1.75}{2} = 0.875in, T_{BC} = 3\times10^{3}psi.in\]
+\[\tau = \frac{T\times r}{J} = \frac{3\times10^{3}\times0.875}{\frac{\pi}{2} \times (0.875^{4} - 0.5^{4})} = 3.19\times10^{3}psi.in\]
+\item In Shaft CD\newline
+Given\[r_{2} = 0.5in, r_{1}=\frac{2}{2} = 1in, T_{CD}=(4+3)\times10^{3} = 7\times10^{3}psi.in\]
+\[\tau = \frac{T\times r}{J} = \frac{7\times10^{3}\times1}{\frac{\pi}{2} \times (1^{4} - 0.5^{4})} = 4.75\times10^{3}psi.in\]
+\item In Shaft DE\newline
+Given\[r_{2} = 0.5in, r_{1}=\frac{2.25}{2} = 1.125in, T_{DE}=(4+3+5)\times10^{3} = 12\times10^{3}psi.in\]
+\[\tau = \frac{T\times r}{J} = \frac{12\times10^{3}\times1.125}{\frac{\pi}{2} \times (1.125^{4} - 0.5^{4})} = 5.583\times10^{3}psi.in\]
+\end{itemize}
+
+
+%This is for the fifth Question
+\section*{Question 3.18}
+The solid rod BC has a diameter of 30 mm and is made of an aluminum for which the allowable shearing stress is 25 MPa. Rod AB is hollow and has an outer diameter of 25 mm; it is made of a brass for which the allowable shearing stress is 50 MPa. Determine 
+\begin{itemize}
+\item the largest inner diameter of rod AB for which the factor of safety is the same for each rod
+\item the largest torque that can be applied at A.
+\end{itemize}
+\begin{center}\underline{Solution}\end{center}
+We are going to assume that the torque is the same
+\begin{center}$T_{s} = T_{b} = $ Largest Torque\end{center}
+Given: \[T_{s} = 25\times10^{6}Nm, r= 0.015m\]
+\[T_{s} = \frac{\tau_{s}\times J}{r} = \frac{25\times10^{6}\times\frac{\pi}{2}\times{0.015}^{4}}{0.03} = 132.53Nm\]
+Finding the inner diameter of the brass, we have
+\[T_{b} = \frac{\tau_{b}\times\frac{\pi}{2}\times({r_{1}}^{4}-{r_{2}}^{4})}{r_{1}} \]
+Given:\[T_{b} = 25\times10^{6}Nm, r= 0.0125m\]
+Making $r_{2}$ the subject of the formular, we have
+\[r = \sqrt[4]{{r_{1}}^{4} - \frac{2\times T_{b}\times r_{1}}{\pi\times\tau}}= \sqrt[4]{{0.0125}^{4} - \frac{2\times132.5\times 0.0125}{\pi\times50\times10^{-3}}} = 0.00759\]
+\[d = 2r = 0.01518m\]
+
+
+%This is for the sixth Question
+\section*{Question 3.32}
+For the aluminum shaft shown (G = 27 GPa), determine 
+\begin{itemize}
+\item the torque T that causes an angle of twist of $4_{o}$
+\item the angle of twist caused by the same torque T in a solid cylindrical shaft of the same length and cross-sectional area.
+\end{itemize}
+
+\begin{center}\underline{Solution}\end{center}
+Given \[\phi =4^{o} = 0.06981rad, G = 27\times10^{9}Pa, l = 1.25m, r_{1} = 0.018m, r_{2} = 0.012m\]
+\[T = \frac{\phi J G}{L} = \frac{0.06981\times\frac{\pi}{2}\times(0.018^{4}-0.012^{4})\times27\times10^{9}}{1.25} = 199.53Nm\]
+Cross sectional areaof the solid cylinder equal to the cross sectional area of the hollow cylinder\[A_{c}=A_{h}\]
+\[A_{h} = \pi({r_{1}}^{2} - {r_{2}}^{2} = \pi({0.018}^{2} - {0.012}^{2}) = 5.654\times10^{-4}m^{2}\]
+\[A_{c} = 5.654\times10^{-4}m^{2}\]
+\[\pi r^{2} = 5.654\times10^{-4}m^{2}\]
+Making r the subject of the formular, we have
+\[r = \sqrt{\frac{5.654\times10^{-4}}{\pi}}=0.0134m\]
+The angle of twist is 
+\[\phi = \frac{TL}{JG} = \frac{199.53\times1.25}{\frac{\pi}{2}\times0.0134^{4}\times27\times10^{9}} = 0.182rad\]
+
+
+
+% This is for the seventh Question
+\section*{Question 3.36}
+The torques shown are exerted on pulleys B Problems , C, and D. Knowing that the entire shaft is made of aluminum (G = 27 GPa), determine the angle of twist between 
+\begin{itemize}
+ \item C and B
+\item  D and B.
+\end{itemize}
+\begin{center}\underline{Solution}\end{center}
+Given:  \[ G = 27\times10^{9}Pa, l = 1.25m, r_{1} = 0.015m, T = 400Nm, L = 0.8m\]
+  Angle of twist at section BC:
+\[\phi_{BC} = \frac{TL}{JG} = \frac{400\times0.8}{\frac{\pi}{2}\times0.015^{4}\times27\times10^{9}} = 0.1490\]
+Angle of twist at D and B
+\[\phi_{BD} = \phi_{BC} + \phi_{CD}\]
+Given: 
+ \[ G = 27\times10^{9}Pa, l = 1.25m, r = 0.018m, T = 400Nm - 900Nm = -500Nm , L = 1m\]
+\[\phi_{BC} = \frac{TL}{JG} = \frac{-500\times1}{\frac{\pi}{2}\times0.018^{4}\times27\times10^{9}} = -0.1123\]
+
+\[\phi_{BD} = 0.182 + (-0.1123) = 0.0367rad\]
+
+
+
+% This is for the eight question
+\section*{Question 3.40}
+The solid spindle AB has a diameter $d_{s}=1.75 in $and is made of a steel with$ G =11.2 \times 10^{6}psi$ and $t_{all}= 12 ksi$, while sleeve CD is made of a brass with $G = 5.6 \times 10^{6}psi$ and $t_{all} = 7 ksi$. Determine 
+\begin{itemize}
+\item  the largest torque T that can be applied at A if the given allowable stresses are not to be exceeded and if the angle of twist of sleeve CD is not to exceed 0.3758
+\item the corresponding angle through which end A rotates.
+\end{itemize}
+\begin{center}\underline{Solution}\end{center}
+\[d_{s} = 1.75in, d_{b} = 3in, \phi = 0.375^{o},L_{sleeve} = 8in\]
+\[G_{s} = 11.2\times10^{6}Psi, G_{b} = 5.6\times10^{6}Psi\]
+\[ {{\tau_{all}}_{s}}=12ksi = 12\times10^{3}Psi,  {{\tau_{all}}_{b}}=12ksi = 7\times10^{3}Psi\]
+Torque based on shear stress of the spindle
+\[\tau_{all} = \frac{Tr_{s}}{J_{s}} \Rightarrow T = \frac{\tau J_{s}}{r_{s}}\]
+\[T = \frac{12\times10^{3}\times\frac{\pi}{2}\times{0.875}^{4}}{0.875} = 12628.11Ibs.in\]
+Torque based on sleeve 
+\[d_{B1} = 3in\]
+\[d_{B2} = 3-2t = 3-2(0.25) = 2.5\]
+\[r_{B1} = \frac{d_{B1}}{2} = 1.5in\]
+\[r_{B2} = \frac{d_{B2}}{2} =1.25in\]
+\[J = \frac{\pi}{2}(1.5^{4} - 1.25^{4}) = 4.1172\]
+\[T = \frac{7\times10^{3}\times4.1172}{1.5} = 19213.6lbs.in\]
+\[\phi = 0.375^{o} = \frac{0.325}{180} = 6.545\times10^{-3}\]
+\[\phi = \frac{TL}{GJ} \Rightarrow T= \frac{GJ\phi}{L} = \frac{5.6\times10^{6}\times4.1172\times6.545\times10^{-3}}{8} = 18862.93lbs.in\]
+\[L = 13, T = 12628.11\]
+\[\phi = \frac{TL}{GJ} = \frac{12628.11\times13}{11.2\times10^{6}\times0.920} = 0.0147rads\]
+
+
+
+
+
+%This is for the nineth questiion
+\section*{Question 3.44}
+ For the gear train described in Prob. 3.43, determine the angle through which end A rotates when $T = 5 lb. in, l= 2.4 in, d = \frac{1}{16}in, G = 11.2\times10^{6} psi$ and n= 2
+\begin{center}\underline{Solution}\end{center}
+Givens: \[t = 5ib.in, l=2.4in, c=\frac{1}{2}d = \frac{1}{32}in, G = 11.2\times10^{6}psi, n = 2, J = \frac{\pi}{2}c^{4} =  \frac{\pi}{2}{(\frac{1}{32})}^{4} = 1.49803\times10^{-6}in^{4}\]
+\begin{center}The formular is $\phi = \frac{Tl}{GJ}(1 + \frac{1}{n^{2}}+  \frac{1}{n^{4}})$\end{center}
+\[\phi = \frac{5\times2.4}{11.2\times10^{6}\times1.49803\times10^{-6}}(1 + \frac{1}{4^{2}}+  \frac{1}{16^{4}}) = 938.73\times10^{-3}rad\]
+\begin{center} The angle through which end A rotates in degress is $53.8^{o}$\end{center}
+
+
+
+%This is for the tenth question
+\section*{Question 3.48}
+A hole is punched at A in a plastic sheet by applying a 600-N force P to end D of lever CD, which is rigidly attached to the solid cylindrical shaft BC. Design specifications require that the displacement of D should not exceed 15 mm from the time the punch first touches the plastic sheet to the time it actually penetrates it. Determine the required diameter of shaft BC if the shaft is made of a steel with $G = 77 GPa$ and$ t_{all}= 80 MPa.$
+
+\begin{center}\underline{Solution}\end{center}
+\[T = rP = (0.3)(600) = 180N.m\]
+\[\phi = \frac{\sigma}{r} = \frac{15}{300} = 0.005 rad\]
+\[\phi = \frac{TL}{GJ} = \frac{2TL}{\pi Gr^{4}}\]
+Making $r^{4}$ the subject of the formular, we have that
+\[r^{4} = \frac{2TL}{\pi\phi G} = \frac{2\times180\times0.5}{\pi\times11\times10^{9}\times0.05} = 14.882\times10^{-9}m^{4}\]
+\[r = 11.045\times10^{-3}m = 11.045m\]
+\[d  =2r = 22.1mm\]
+The shaft diameter based based on stress is
+\[\tau = 80\times10^{6}Pa\]
+\[\tau =\frac{Tr}{J}=\frac{2T}{\pi r^{3}}\]
+Making $r$ the subject of the formular, we have
+\[r = \sqrt[3]{\frac{2T}{\pi\tau} }= \frac{(2)(180)}{\pi(80\times10^{6})} = \sqrt[3]{1.43239\times10^{-6}m^{3}} = 11.273\times10^{-3}m = 11.273mm\]
+\[d = 2r = 22.5mm\]
+\end{document}
