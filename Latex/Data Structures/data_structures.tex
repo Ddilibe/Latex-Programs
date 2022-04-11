@@ -1,0 +1,95 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{Introduction into Data Structure}
+\author{by Dilibe}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+	\maketitle
+	
+	\section{Introduction into Data Structures.}
+	
+	
+	\subsection{Introduction}
+	What is a Data Structure?
+	\\ \paragraph{}
+	A data structure is a particular way of organizing data in a computer to increase speed and efficiency while reducing space.
+	Data structures are classified into different structures. They are Linear data structures, hierarchical data structures
+	\subsection{Linear data structures}
+	\begin{enumerate}
+	 \item Arrays: An array is a data structure used to store different element of the same data type. 
+	\item Linked List: A linked list is a linear data structure like arrays where each element is a separate object. 
+	\item Stack: A stack or LIFO (last in, first out) is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and pop which removes the last element that was added.
+	\item Queue: A queue or FIFO (first in, first out) is an abstract data type that serves as a collection of elements, with two principal operations: enqueue, the process of adding an element to the collection (the element is added from the rear side) and dequeue, the process of removing the first element that was added (the element is removed from the front side).
+	\end{enumerate}
+	\subsection{Hierarchical Data Structures}
+	\begin{enumerate}
+	\item Binary Tree: A binary tree is a tree structure in which each node has at most two children, which are referesd to as the left child and the right child. it is implemented mainly using links.
+	\item Binary search tree: A binary search tree is a binary tree with the following properties;
+		\begin{itemize}
+			\item The left subtree of a node contains only nodes with keys less than the node\rq{}s key
+			\item The right subtree of a node contains only nodes with keys greater than the node\rq{}s key.
+			\item The left and right subtree each must also be a binary search tree.
+		\end{itemize}
+	\item Binary Heap: A binary heap is a binary tree with the following properties
+	\begin{itemize}
+		\item It\rq{}s a complete tree i.e. all the levels are completely filled except possibly the last leve; and the last level and the last level has all keys as left possible
+		\item A binary heap is niether a max heap or amin heap
+	\end{itemize}
+	 \item Hashing / Hashing function: A hashing function is a function that converts a given big input key to a small practical integer value. A hash table is an array that stores pointers to record corresponding to a given phone number.
+	\end{enumerate}
+\end{document}

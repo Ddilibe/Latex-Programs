@@ -1,0 +1,24 @@
+\contentsline {chapter}{\numberline {1}Introduction into Future Fit Career}{5}{}%
+\contentsline {section}{\numberline {1.1}Getting started with Future Fit Career}{5}{}%
+\contentsline {section}{\numberline {1.2}Stay Ahead of the curve in an accelerating world}{6}{}%
+\contentsline {subsection}{\numberline {1.2.1}Two Important lessons from covid-19}{6}{}%
+\contentsline {subsection}{\numberline {1.2.2}The Future is faster than you think}{6}{}%
+\contentsline {subsection}{\numberline {1.2.3}The 4th Induxtrial revolution has picked up its pace}{6}{}%
+\contentsline {subsection}{\numberline {1.2.4}10+ technologies are advancing at the same time for the first time in history}{7}{}%
+\contentsline {subsection}{\numberline {1.2.5}The exponential Effect: Technologies double in speed at every step}{7}{}%
+\contentsline {subsection}{\numberline {1.2.6}A simple explanantion of Moore'{}s law}{7}{}%
+\contentsline {subsection}{\numberline {1.2.7}Takeaway 1}{8}{}%
+\contentsline {subsection}{\numberline {1.2.8}Spend more time with your future}{8}{}%
+\contentsline {subsection}{\numberline {1.2.9}Being ``{}Future Literate''{}}{8}{}%
+\contentsline {subsection}{\numberline {1.2.10} What do you do to become a future literate?}{8}{}%
+\contentsline {subsection}{\numberline {1.2.11}Takeaway 2}{9}{}%
+\contentsline {chapter}{\numberline {2}Discover the big impact goal in the future of work}{11}{}%
+\contentsline {section}{\numberline {2.1}The occupational Identity}{11}{}%
+\contentsline {section}{\numberline {2.2}Typing your identity and your growth to a purpose or a mission}{11}{}%
+\contentsline {subsection}{\numberline {2.2.1}Starting with your `{}Why'{}}{12}{}%
+\contentsline {section}{\numberline {2.3}Your big impact Goal}{12}{}%
+\contentsline {section}{\numberline {2.4}The six global challenges}{12}{}%
+\contentsline {section}{\numberline {2.5}Humane Technologies Challenges}{13}{}%
+\contentsline {section}{\numberline {2.6}The Vision: Develop Tech Solutions Empowering Every Human}{14}{}%
+\contentsline {paragraph}{}{14}{}%
+\contentsline {section}{\numberline {2.7}Learn more about humane technologies}{15}{}%

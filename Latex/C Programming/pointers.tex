@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{listings}
+\title{Understanding pointers, arrays and functions in c programming}
+\author{By Dilibe}
+\begin{document}
+	\maketitle
+	\lstset{basicstyle=\small, keywordstyle=\color{blue}\bfseries\underbar,identifierstyle=, commentstyle=\color{white}, stringstyle=\ttfamily, showstringspaces=false, numbers=left, numberstyle=\tiny, stepnumber=2,numbersep=5pt}
+	\newpage
+	\section{Arrays}
+	\paragraph{}
+	An array is a collection of variables that are of the same data type. Each item in an array is called an element. An arry is declared using the following syntax \lstinline{data_type Array_name[array_size];}
+	\newpage
+	\section{Pointer}
+	\paragraph{}
+	A pointer is a special variable that is used to store the address of some other variable. It is necessary for the variable contained in a pointer to be an address. Pointers are used because, sometimes they are the only way to express a computation and they increase the speed and efficiency of the code. It can be used to store the address of a single variable, array, structure, union, or even a pointer. Every variable have a unique address. 
+	\paragraph{}
+	The size of a pointer would be respect to the sizeof the data-type. Pointers have a bad reputation cause they are supposed to be difficult to use or difficult to understand. Pointers are declared using the \lq\lq{}*\rq\rq{}. Once one declares a variable without giving it a value, a space in the memory is reserved for it. the unary operator \lq\lq{}\&\rq\rq{} gives the address of an object. To declare a pointer, \lstinline{data-type *pointer_name;} while to dereference a pointer, the syntax is \lstinline{data-type &name_of _variable;}
+	
+	
+	\subsection{Pointers and Arrays}
+	\paragraph{}
+	A strong relationship exsit between the two pointers and arrays. Using an array can be easily accessed using a pointer and it would be generally faster. An example of a pointer and char array is shown below:
+	\lstinputlisting{change.c}
+	
+	\section{Placeholders in c programming language}
+	int that is integer values uses \%d
+	\\float that is floating point values uses \%f
+	\\char that is for single character values uses \%c
+	\\character string that is for arrays of characters uses \%s
+	
+\end{document}

@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{listings}
+\title{A summariized use of the listing package}
+\author{Dilibe}
+\begin{document}
+	\maketitle
+	\lstset{,
+	basicstyle=\small, % print whole listing small
+	keywordstyle=\color{blue}\bfseries\underbar,% underlined bold black keywords
+	identifierstyle=, % nothing happens
+	commentstyle=\color{white}, % white comments
+	stringstyle=\ttfamily, % typewriter type for strings
+	showstringspaces=false,
+	numbers=left, numberstyle=\tiny, stepnumber=2,numbersep=5pt}
+	\tableofcontents
+	\section{Introduction}
+	To get started with the listing package, it is loaded with the command\textbackslash usepackage[(options)]\{listing\}
+		there are three types of codes which are surpported namely: code snippets, code segments and listing pf stand alone files.
+	\subsection{code snippets}
+		this code is used if the codde you are willing to write is put inside a sentence.
+		it goes with the code \textbackslash lstinline{the code you wan to write}. the curly barckets are delimiters and they can be replaced with any other characyers that is not in the code.
+	\subsection{Displayed Code}
+		This type set encloses it and displayes it on its own as a picture. The synatax goes like this
+		\begin{lstlisting}
+		\\begin{lstlisting}
+			\**
+			  * this is real
+			  */
+			for i :== maxint to 0 do
+			begin
+				{do  nothing}
+			end:
+			
+			Write(Case_sensitive)
+			write (Pascal_keywords)
+		\/end{lstlisting}
+		\end{lstlisting}
+	\subsection{Stand alone files}
+		This surpported form means to add external code files into the latex program. you have to correctly define the file path. this is the syntax: \textbackslash lstinputlisting{listing.sty}.
+		\lstinputlisting{go.c}
+	These are all the ways that the source file of a code in other programming languages can be inputed.
+	
+	\section{How to edit the appearances of the code in latex}
+		Keywords are used to to change things in thr inouted codes like font size, the color, and a lot of things.
+		Sadly, this design only works with displayed codes. and not inline or stand alone files.
+		To start ti design, you use the \textbackslash lstset, then opem your curly brackets, ass the following
+		\\basicstyle = This is used to chabge the font size
+		\\keywordstyle - This is used to highlight keywords  used in the code. it takes two argument a command style and an underbar command. The sype include \textbackslash ttfamily and the \textbackslash bfseries then the \textbackslash underscore.
+		\\FLoating: By floating, the codes will appear on top of the page. 
+	\subsection{Other features that appear include:}
+		\begin{lstlisting}
+			if (i<=0) then i := 1;
+			if (i>=0) then i := 0;
+			if (i<>0) then i := 0;
+		\end{lstlisting}
+		
+	\section{Alternatives to the listing mechanism in \LaTeX }
+	\paragraph{}
+		This program also have other competitors. Some of them do the job well. Some are independent of \LaTeX while others come with a separate program plus a \LaTeX package.These packages include:
+		\\
+	\section{\LaTeX commands and their explaintion}
+		\textbackslash{lstloadlanguages}\{<comma separated list of languages>\}
+\end{document}
